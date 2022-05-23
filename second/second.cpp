@@ -15,6 +15,11 @@ int main()
 {
 	int option;
 	double balance = 500;
+	int pin;
+	cout<<"ENTER PIN "<<endl;
+	cin >> pin;
+	if (pin == 9955) {
+	
 	do {
 		showMenu();
 
@@ -42,10 +47,13 @@ int main()
 		}
 	} while (option != 4);
 
+	}
 
 
 
-
+else
+		cout << "WRONG PIN ENTERED "<<endl;
+	cout << "PLEASE ENTER CORRECT PIN"<<endl;
 
 
 	cout << "********************PROGRAMMED BY SAHIL********************";
